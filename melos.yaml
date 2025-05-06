@@ -1,0 +1,22 @@
+name: creating_module
+packages:
+  - core/**
+  - features/**
+
+command:
+  bootstrap:
+    environment:
+      sdk: ^3.5.3
+      
+    dependencies:
+      flutter:
+        sdk: flutter
+
+      cupertino_icons: ^1.0.8
+      melos: ^6.3.2
+      dio:
+
+    dev_dependencies:
+      flutter_test:
+        sdk: flutter
+      flutter_lints: ^5.0.0
